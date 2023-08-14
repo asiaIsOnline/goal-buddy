@@ -1,5 +1,22 @@
-# Ignore node_modules folder
+# Ignore node_modules folder and other dependencies
 node_modules
+/.pnp
+.pnp.js
 
-# Ignore files related to API keys
+# Ignore testing
+/coverage
+
+# Ignore production
+/build
+
+# Ignore files related to API keys and misc
+.DS_Store
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
